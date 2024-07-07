@@ -1,0 +1,62 @@
+{
+    "name" : "t_songs_viewa_master",
+    "physicalName":"Songs Views Info",
+    "description": "Table for information about the number of streams for a song in diferent platforms",
+    "fields": [
+        {
+            "metadata": {},
+            "name": "cm_song_id",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "cm_gloval_rank",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "cm_total_views",
+            "nullable": true,
+            "type": "integer"
+        },
+        {
+            "metadata": {},
+            "name": "cm_spotify_sreams",
+            "nullable": true,
+            "type": "integer"
+        },
+        {
+            "metadata": {},
+            "name": "cm_youtube_views",
+            "nullable": true,
+            "type": "integer"
+        },
+        {
+            "metadata": {},
+            "name": "cm_shazam_counts",
+            "nullable": true,
+            "type": "integer"
+        },
+        {
+            "metadata": {},
+            "name": "cm_soundcloud_streams",
+            "nullable": true,
+            "type": "integer"
+        },
+        {
+            "metadata": {},
+            "name": "closing_date",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "audit_date",
+            "nullable": false,
+            "type": "timestamp"
+        }
+    ],
+    "type": "struct"
+}

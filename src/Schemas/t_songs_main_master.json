@@ -1,0 +1,74 @@
+{
+    "name" : "t_songs_main_master",
+    "physicalName":"Songs Funcional Info",
+    "description": "Table for the funcional information about the songs",
+    "fields": [
+        {
+            "metadata": {},
+            "name": "cm_song_id",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "cm_track_name",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "cm_album_name",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "cm_artist_name",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "cm_release_date",
+            "nullable": true,
+            "type": "date"
+        },
+        {
+            "metadata": {},
+            "name": "cm_gloval_rank",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "cm_track_score",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "cm_explicit_content",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "cm_song_antiquity_unix",
+            "nullable": true,
+            "type": "long"
+        },
+        {
+            "metadata": {},
+            "name": "closing_date",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "audit_date",
+            "nullable": false,
+            "type": "timestamp"
+        }
+    ],
+    "type": "struct"
+}
