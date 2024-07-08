@@ -38,7 +38,7 @@ def main():
         .withColumn("cm_song_antiquity_unix",f.col("current_date_unix")-f.col("cm_release_date_unix"))
 
     dfMainRdo = dfMain2\
-        .withColumn("closing_date",f.lit("2024-07-04"))\
+        .withColumn("closing_date",f.lit(fecha_ejec))\
         .withColumn("audit_date",f.current_timestamp())\
         .select("cm_song_id","cm_track_name","cm_album_name","cm_artist_name","cm_release_date","cm_gloval_rank","cm_track_score","cm_explicit_content","cm_song_antiquity_unix","closing_date","audit_date")
 

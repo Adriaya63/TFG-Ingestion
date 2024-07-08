@@ -9,7 +9,7 @@ def main(fecha_ejec):
         .getOrCreate()
     
     #Rutas de entrada y salida
-    input_path = "src/Data/StreamSpoty.csv"
+    input_path = "src/Data/song_data_"+fecha_ejec+".csv"
     output_path = "src/Data/Raw/t_songs_info_raw"
     
     # Leer el archivo CSV
